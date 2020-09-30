@@ -28,7 +28,7 @@ app.use(bodyParser.urlencoded({
 
 // connect ke database
 mongoose.Promise = global.Promise
-mongoose.connect('mongodb://139.180.220.65:27017/server-simpel', {
+mongoose.connect('mongodb://localhost/server-simpel', {
     useNewUrlParser: true,
     useFindAndModify: false,
     useUnifiedTopology: true
